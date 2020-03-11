@@ -1,0 +1,83 @@
+body {
+    background-color: rgb(184, 182, 182);
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    padding: 5px;
+    font-size: 150%;
+}
+
+p.primero {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 70%;
+    height: 10%;
+    border: brown 3px solid;
+    background-color:bisque;
+    text-align: center;
+  }
+  
+  p.segundo {
+    position: absolute;
+    top: 40%;
+    left: 32%;
+    width: 35%;
+    height: 30%;
+    z-index: 2;
+    border: green 3px solid;
+    background-color:greenyellow;
+    text-align: center;
+  }
+  
+  p.tercero {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    width: 35%;
+    height: 25%;
+    border: yellowgreen 3px solid;
+    background-color: yellow;
+    text-align: left;
+  }
+  
+  p.cuarto {
+    position: absolute;
+    top: 25%;
+    right: 5%;
+    width: 35%;
+    height: 25%;
+    border: blue 3px solid;
+    background-color: lightskyblue;
+    text-align: right;
+  }
+  
+  p.quinto {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    width: 35%;
+    height: 25%;
+    border: violet 3px solid;
+    background-color: pink;
+    text-align: left;
+  }
+  
+  p.sexto {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    width: 35%;
+    height: 25%;
+    border: brown 3px solid;
+    background-color: burlywood;
+    text-align: right;
+  }
+  
+  p:hover {
+    z-index: 3;
+  }
